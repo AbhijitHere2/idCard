@@ -1,0 +1,73 @@
+#head:hover{
+
+    background: -webkit-linear-gradient(#d2b8b8, #6989f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.badgee {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color: #111;
+    border-radius: 10px;
+ 
+    cursor: grab;
+    text-align: center;
+  
+}
+
+.badge-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.badge-date {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.bounce {
+    animation: bounce 2.5s ease-in-out forwards;
+}
+
+/* @keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-150px) translateX(50px);
+    }
+    50% {
+        transform: translateY(-50px) translateX(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
