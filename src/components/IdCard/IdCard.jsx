@@ -24,7 +24,7 @@ const IDCard = () => {
   return (
     <div
       style={{ perspective: 5000}}
-      className=" bg-black  flex items-center max-sm:p-5 justify-evenly p-24 max-sm:flex-col gap-5 mb-5   "
+      className=" bg-black  flex items-center max-sm:p-5 justify-evenly p-24 max-sm:flex-col gap-5 my-5   "
     >
       <div className="w-72 p-2 h-64 space-y-2  ">
         <h1 className="text-2xl font-semibold font-sans  text-white ">
